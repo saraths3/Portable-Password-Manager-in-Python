@@ -68,11 +68,16 @@ python main.py
 
 ## Notes
 
-* Session handled via global variable: `session.current_user_id` 
-* Passwords:
+- Admin accounts must be set manually:
+  - Create a user normally
+  - Open `database.db`
+  - In the `usertable`, set `admin = 1` for that user
 
-  * Login → Hashed (SHA256)
-  * Stored credentials → Encrypted (Fernet)
+- Session is handled using a global variable: `session.current_user_id`
+
+- Password handling:
+  - Login passwords → Hashed using SHA256
+  - Stored credentials → Encrypted using Fernet
 
 ---
 
