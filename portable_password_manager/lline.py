@@ -1,0 +1,5 @@
+def head(): print('\n======Portable-Password-Manager======\n')
+def i_line(): print('========= Credential Added =========')
+def u_line(): print('======== Credential Updated ========')
+def d_line(): print('======== Credential Deleted ========')
+def line(): print('\n====================================')
