@@ -1,5 +1,5 @@
 # Portable Password Manager (CLI)
-
+banner.png
 ## Requirements
 
 Install dependencies:
