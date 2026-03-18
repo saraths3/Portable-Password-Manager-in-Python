@@ -1,5 +1,5 @@
 # Portable Password Manager (CLI)
-banner.png
+![Workflow](https://raw.githubusercontent.com/saraths3/Portable-Password-Manager-in-Python/main/banner.png)
 ## Requirements
 
 Install dependencies:
